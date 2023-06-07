@@ -7,7 +7,6 @@ h1
         color:cornflowerblue;
         font-family:'Times New Roman', Times, serif;
         font-size: 45px;
-        text-align: end;
     }
 
 span
@@ -17,5 +16,6 @@ span
 
 p
     {
-        color: blue;
+        color: white    ;
+        font-size: 36px;
     }
