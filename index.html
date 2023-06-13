@@ -17,58 +17,125 @@
         Febin<span> Wilfred</span>
       </h1>
     </div>
+    
 
     <!-- Section 2: Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg" style="background-color:black">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <img class="navbar-brand" href="#"><img src="./images/logo.png" alt="No image found."></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active text-white fs-5" aria-current="page" href="#"><strong>Home </strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link text-success fs-5" href="#"><strong>About</strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Awards</a>
+              <a class="nav-link text-white fs-5" href="#"><strong>Contact</strong></a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link text-white fs-5" href="#"><strong>Lorem</strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
-            </li>
-            
+              <a class="nav-link text-white fs-5" href="#"><strong>Contact</strong></a>
+            </li> -->
+          </ul>  
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+              <!-- <a class="nav-link dropdown-toggle text-white fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
+                <!-- <strong>Dropdown</strong> -->
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Something else here &raquo;</a>
+                  <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
+                    <li>
+                      <a class="dropdown-item" href="#">Submenu item 1</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Submenu item 2</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Submenu item 4</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Submenu item 5</a>
+                    </li>
+                  </ul>
+                </li>
               </ul>
             </li>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success text-white fs-5" style="border-color:cornflowerblue" type="submit"><strong>Search</strong></button>
+              </form>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
+    <hr>
+    
+    <!-- Section 3: Breadcrumb -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+      </ol>
+    </nav>
+    
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#" style="color: cornflowerblue;">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">About</li>
+      </ol>
+    </nav>
+    
+    <!-- Section 4: Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/Carousel.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-3" style="color: maroon;"><strong>Guiding you to soar like an <i fs-4>Eagle:</i></strong></h5>
+            <p style="color: darkred;"><strong>Crafting delighted workplace experiences.</strong></p>
+          </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <!-- Section 3: Carousel -->
-
-    <!-- Section 4 -->
+    <!-- Section 5 -->
     <div class="container w-75">
       <p class="text-center">
-        I grew up in Kochi, one of the most picturesque destinations along the southwest coastline of Kerala, and I absolutely love the food here. The warm hospitality and friendly nature of the people make it even more special.
+        I grew up in <strong>Kochi</strong>, one of the most picturesque destinations along the southwest coastline of Kerala, and I absolutely love the food here.
       </p>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
+    <!-- Section 5: Grid -->
+    <div class="container-fluid w-75">
+      <div class="row">
+        <div class="col-6">
+            <p>I am a <strong>Senior Software Test Engineer</strong> with degrees in Business (MBA) and Engineering (BE) from the University of Pune. I assist companies in delivering flawless software products, enabling them to enhance customer retention rate and ultimately generate more leads.</p> 
+            <!-- <p>I have also worn the hat of an Assistant Professor, Trainer, Project Scientist, and Project Coordinator.</p>   -->
+        </div>
+        <div class="col-6">
+          <img class="c1" src="./images/ProfessionalPhoto.png" alt="No image found"></img> -->
+        </div>
+      </div>
+    </div>
   
   
 </body>

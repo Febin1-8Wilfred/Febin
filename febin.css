@@ -8,14 +8,21 @@ h1
         font-family:'Times New Roman', Times, serif;
         font-size: 45px;
     }
-
 span
     {
         color: white;
     }
-
+hr
+    {
+        color: white;
+    }
 p
     {
         color: white    ;
         font-size: 36px;
+    }
+.c1
+    {
+        height: 100%;
+        width: 100%;
     }
