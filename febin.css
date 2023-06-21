@@ -6,9 +6,11 @@ body
     }
 h1
     {
-        color:cornflowerblue;
+        color:red;
         font-family:'Times New Roman', Times, serif;
         font-size: 45px;
+        font-weight: bold;
+
     }
 span
     {
@@ -41,12 +43,13 @@ p
         width: 100px;
         margin: 20px auto;
         transform: rotate(45deg);
+        border-color: yellow;
    }
 .icon-box .fa-solid
     {
         font-size: 40px;
         margin: 25px auto;
-        color: #ffc800;
+        color: white;
         transform: rotate(-45deg);
     }
 .counter-box p
